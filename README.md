@@ -1,15 +1,15 @@
 # NIGHTLIFE-JS
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-![screencapture-reza-ojaghi-dro-github-io-js-modal-2023-11-18-20_52_45](https://github.com/REZA-OJAGHI-DRO/js-modal/assets/145910720/18b79149-83cd-481e-a0fb-bdfbed95dbc3)
+![Screenshot (22)](https://github.com/REZA-OJAGHI-DRO/NIGHTLIFE-JS/assets/145910720/d7c05724-79e5-4213-a022-88fc4404fd2d)
 
 - [Demo Project](https://reza-ojaghi-dro.github.io/NIGHTLIFE-JS/)
  
 - Developed by reza ojaghi
 
-- Created - 2023-11-14
+- Created - 2023-11-18
 
-- Technologies Used - Html , sass , bootstrap , js , trick 
+- Technologies Used - Html , sass , bootstrap , js ,TEMPLATE
 
 - Hooks Used : useState 
 
