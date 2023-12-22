@@ -3,7 +3,7 @@
 
 ![screencapture-reza-ojaghi-dro-github-io-js-modal-2023-11-18-20_52_45](https://github.com/REZA-OJAGHI-DRO/js-modal/assets/145910720/18b79149-83cd-481e-a0fb-bdfbed95dbc3)
 
-- [Demo Project](https://reza-ojaghi-dro.github.io/js-modal/)
+- [Demo Project](https://reza-ojaghi-dro.github.io/NIGHTLIFE-JS/)
  
 - Developed by reza ojaghi
 
