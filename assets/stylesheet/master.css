@@ -1,0 +1,797 @@
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container-test-xxl {
+  max-width: 1600px !important;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fix {
+  left: 0;
+  animation: a 1s linear forwards;
+  background-color: black;
+  color: white;
+}
+
+@keyframes a {
+  50%, 0% {
+    position: fixed;
+    top: -200px;
+  }
+  100% {
+    position: fixed;
+    top: 0;
+  }
+}
+#main {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+#line {
+  position: fixed;
+  z-index: 120;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 0, 0);
+  width: 0;
+  height: 8px;
+}
+@media screen and (max-width: 576px) {
+  #line {
+    height: 3px;
+  }
+}
+
+.s1 {
+  height: 7vw;
+  z-index: 100;
+  position: relative;
+}
+.s1 > div {
+  height: 100%;
+}
+.s1 > div > header {
+  height: 100%;
+}
+.s1 > div > header > section {
+  height: 100%;
+}
+.s1 > div > header > section:nth-of-type(1) > div {
+  height: 80%;
+  background-image: url(../img/IMG1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.s1 > div > header > section:nth-of-type(2) {
+  height: 100%;
+}
+.s1 > div > header > section:nth-of-type(2) > ul {
+  height: 100%;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li {
+  height: 100%;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.4s;
+  position: relative;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:hover {
+  color: chocolate;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li > a {
+  text-decoration: none;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li > a > i {
+  font-size: 2rem;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:hover > ul > li {
+  height: 5vh;
+  opacity: 1;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li > ul {
+  width: 15vw;
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li > ul > li {
+  transition: 0.4s;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li > ul > li > a {
+  text-decoration: none;
+  color: rgb(190, 189, 189);
+  transition: 0.4s;
+  font-size: 1.2rem;
+  display: flex;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li > ul > li > a:hover {
+  color: chocolate;
+  transform: translateX(5%);
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) {
+  position: relative;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > i {
+  font-size: 3rem;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div {
+  z-index: 100;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 100vh;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul {
+  transition: 0.4s;
+  position: absolute;
+  z-index: 100;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li {
+  width: 100%;
+  overflow: hidden;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(1) {
+  height: 10%;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(1) > i {
+  color: white;
+  font-size: 2rem;
+  transition: 0.4s;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(1) > i:hover {
+  color: chocolate;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(2) {
+  height: 30%;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(2) > div {
+  width: 60%;
+  height: 60%;
+  background-image: url(../img/IMG1.png);
+  background-size: 100% 100%;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(3) {
+  height: 15%;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(3) > p {
+  font-size: 1rem;
+  text-align: center;
+  color: gray;
+  overflow: hidden;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(4) {
+  height: 20%;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(4) > ul {
+  height: 100%;
+  overflow: hidden;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(4) > ul > li > a {
+  font-size: 2.4rem;
+  color: rgb(206, 205, 205);
+  transition: 0.4s;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(10) > div > ul > li:nth-of-type(4) > ul > li > a:hover {
+  color: chocolate;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  transition: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li:hover {
+  color: chocolate;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul {
+  height: 60vh;
+  transition: 1s;
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  right: 0;
+  width: 100vw;
+  height: auto;
+  background-color: black;
+  overflow: auto;
+  border-top: 2px solid chocolate;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul > li {
+  width: 100%;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul > li > button {
+  width: 85%;
+  background-color: transparent;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+  transition: 0.4s;
+  display: flex;
+  justify-content: start;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul > li > button:hover {
+  color: chocolate;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul > li:nth-of-type(1) > button {
+  color: chocolate;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul > li:nth-of-type(1) i {
+  transform: rotate(90deg);
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul > li > i {
+  color: white;
+  transform-origin: 50% 50%;
+  transform: rotate(0);
+  transition: 1s;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul > li > ul {
+  width: 100%;
+  overflow: hidden;
+  z-index: 100;
+  transition: 1s;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul > li > ul > li {
+  border-bottom: 0.5px solid chocolate;
+  color: rgb(169, 169, 169);
+  transition: 0.4s;
+  height: 6vh;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul > li > ul > li:hover {
+  color: chocolate;
+}
+.s1 > div > header > section:nth-of-type(2) > ul:nth-of-type(2) > li > ul > li > ul > li > a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.s2 {
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .s2 {
+    height: 50vh;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s2 {
+    height: 60vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  .s2 {
+    height: 85vh;
+  }
+}
+.s2 > div {
+  height: 100%;
+}
+.s2 > div > section {
+  height: 100%;
+}
+.s2 > div > section:nth-of-type(1) {
+  height: 100%;
+  grid-area: 1/1/2/2;
+}
+.s2 > div > section:nth-of-type(1) > div {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.s2 > div > section:nth-of-type(1) > div:nth-of-type(1) {
+  background-image: url(../img/h8-slider1-background-img.jpg);
+  left: 0;
+}
+.s2 > div > section:nth-of-type(1) > div:nth-of-type(2) {
+  background-image: url(../img/h8-slider2-background-img.jpg);
+  left: -100%;
+}
+.s2 > div > section:nth-of-type(1) > div:nth-of-type(3) {
+  background-image: url(../img/h8-slider3-background-img.jpg);
+  left: -100%;
+}
+.s2 > div > section:nth-of-type(2) {
+  height: 100%;
+  grid-area: 1/1/2/2;
+}
+.s2 > div > section:nth-of-type(2) > button {
+  background-color: transparent;
+  border: 0;
+  height: 6vw;
+}
+.s2 > div > section:nth-of-type(2) > button > i {
+  color: white;
+  font-size: 3rem;
+  transition: 0.4s;
+}
+.s2 > div > section:nth-of-type(2) > button > i:hover {
+  font-size: 3.7rem;
+}
+.s2 > div > section:nth-of-type(2) > div {
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+}
+.s2 > div > section:nth-of-type(2) > div > h1 {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Young Serif", serif;
+}
+@media screen and (max-width: 576px) {
+  .s2 > div > section:nth-of-type(2) > div > h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s2 > div > section:nth-of-type(2) > div > h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .s2 > div > section:nth-of-type(2) > div > h1 {
+    font-size: 80px;
+  }
+}
+.s2 > div > section:nth-of-type(2) > div > a {
+  font-size: 1.5rem;
+  color: white;
+  background-color: chocolate;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+.s2 > div > section:nth-of-type(2) > div > a:hover {
+  color: black;
+  background-color: white;
+}
+
+.s3 {
+  margin: 5vh 0;
+}
+.s3 > div {
+  height: 100%;
+}
+.s3 > div > section {
+  height: 100%;
+}
+.s3 > div > section > figure {
+  height: 50vh;
+  transition: 0.2s;
+}
+.s3 > div > section > figure > img {
+  top: 0;
+}
+.s3 > div > section > figure > figcaption {
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.297);
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.s4 > div > section:nth-of-type(1) {
+  height: 10vh;
+}
+.s4 > div > section:nth-of-type(1) > h4 {
+  font-size: 4rem;
+  font-family: "Young Serif", serif;
+  text-transform: uppercase;
+}
+.s4 > div > section:nth-of-type(2) > article {
+  width: 300px;
+  height: 350px;
+}
+.s4 > div > section:nth-of-type(2) > article > figure {
+  height: 80%;
+}
+.s4 > div > section:nth-of-type(2) > article > figure:hover > img {
+  filter: grayscale(0);
+  top: -5%;
+  left: -5%;
+  width: 110%;
+  height: 110%;
+}
+.s4 > div > section:nth-of-type(2) > article > figure:hover > figcaption > a {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media screen and (max-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > figure:hover > figcaption > a {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > figure:hover > figcaption > a {
+    font-size: 20px;
+  }
+}
+.s4 > div > section:nth-of-type(2) > article > figure > img {
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+  filter: grayscale(100%);
+}
+.s4 > div > section:nth-of-type(2) > article > figure > div {
+  top: 0;
+  height: 100%;
+}
+.s4 > div > section:nth-of-type(2) > article > figure > div > p {
+  background-color: chocolate;
+  height: 4vh;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+@media screen and (max-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > figure > div > p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > figure > div > p {
+    font-size: 20px;
+  }
+}
+.s4 > div > section:nth-of-type(2) > article > figure > figcaption {
+  top: 0;
+  height: 100%;
+}
+.s4 > div > section:nth-of-type(2) > article > figure > figcaption > a {
+  background-color: chocolate;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 2rem;
+  border-radius: 5px;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: 0.4s;
+}
+@media screen and (max-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > figure > figcaption > a {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > figure > figcaption > a {
+    font-size: 20px;
+  }
+}
+.s4 > div > section:nth-of-type(2) > article > div {
+  height: 20%;
+}
+.s4 > div > section:nth-of-type(2) > article > div > div {
+  height: 50%;
+}
+.s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(1) > h5 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+}
+@media screen and (max-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(1) > h5 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(1) > h5 {
+    font-size: 20px;
+  }
+}
+.s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(1) > div > i {
+  color: chocolate;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(1) > div > i {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(1) > div > i {
+    font-size: 20px;
+  }
+}
+.s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(1) > div > span {
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(1) > div > span {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(1) > div > span {
+    font-size: 20px;
+  }
+}
+.s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(2) > p {
+  color: chocolate;
+  font-size: 0.9rem;
+  font-family: "Oswald", sans-serif;
+}
+@media screen and (max-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(2) > p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(2) > p {
+    font-size: 20px;
+  }
+}
+.s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(2) > p > del {
+  color: black;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(2) > p > del {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s4 > div > section:nth-of-type(2) > article > div > div:nth-of-type(2) > p > del {
+    font-size: 20px;
+  }
+}
+
+.s5 {
+  height: 80vh;
+}
+.s5 > div {
+  height: 100%;
+}
+.s5 > div > section {
+  height: 100%;
+}
+.s5 > div > section > figure {
+  height: 70%;
+  position: relative;
+}
+.s5 > div > section > figure > img {
+  position: absolute;
+}
+.s5 > div > section > figure > figcaption {
+  height: 100%;
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.412);
+}
+.s5 > div > section > figure > figcaption > h4 {
+  font-size: 4rem;
+  text-align: center;
+}
+.s5 > div > section > figure > figcaption > a {
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: chocolate;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+@media screen and (max-width: 576px) {
+  .s5 > div > section > figure > figcaption > a {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s5 > div > section > figure > figcaption > a {
+    font-size: 20px;
+  }
+}
+.s5 > div > section > figure > figcaption > a:hover {
+  background-color: white;
+  color: black;
+}
+
+.s6 {
+  filter: grayscale(100%);
+  transition: 0.4s;
+}
+.s6:hover {
+  filter: grayscale(0);
+}
+
+.s7 > div > section > figure {
+  width: 150px;
+  height: 150px;
+}
+.s7 > div > section > figure:hover > img:nth-of-type(1) {
+  transform: translateY(100%);
+}
+.s7 > div > section > figure:hover > img:nth-of-type(2) {
+  transform: translateY(0);
+}
+.s7 > div > section > figure > img {
+  transition: 0.4s;
+  grid-area: 1/1/2/2;
+}
+.s7 > div > section > figure > img:nth-of-type(1) {
+  transform: translateY(0%);
+}
+.s7 > div > section > figure > img:nth-of-type(2) {
+  transform: translateY(-100%);
+}
+
+.s8 > div {
+  overflow: hidden;
+}
+.s8 > div > footer > section {
+  background-color: black;
+  color: white;
+}
+.s8 > div > footer > section:nth-of-type(1) > article > h5 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  margin: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .s8 > div > footer > section:nth-of-type(1) > article > h5 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s8 > div > footer > section:nth-of-type(1) > article > h5 {
+    font-size: 20px;
+  }
+}
+.s8 > div > footer > section:nth-of-type(1) > article > ul > li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 8px;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+}
+@media screen and (max-width: 576px) {
+  .s8 > div > footer > section:nth-of-type(1) > article > ul > li {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s8 > div > footer > section:nth-of-type(1) > article > ul > li {
+    font-size: 20px;
+  }
+}
+.s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(1) > ul > li {
+  text-transform: uppercase;
+}
+.s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(1) > ul > li > span {
+  color: chocolate;
+}
+.s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(2) > ul > li > a {
+  width: 100%;
+  text-decoration: none;
+  transition: 0.4s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(2) > ul > li > a:nth-of-type(1) {
+  text-transform: uppercase;
+}
+.s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(2) > ul > li > a:nth-of-type(1):hover {
+  color: chocolate;
+}
+.s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(2) > ul > li > a:nth-of-type(2) {
+  color: chocolate;
+  font-size: 0.85rem;
+}
+@media screen and (max-width: 576px) {
+  .s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(2) > ul > li > a:nth-of-type(2) {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(2) > ul > li > a:nth-of-type(2) {
+    font-size: 20px;
+  }
+}
+.s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(2) > ul > li > a:nth-of-type(2):hover {
+  color: white;
+}
+.s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(3) > ul > li > a {
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 2px;
+  transition: 0.4s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.s8 > div > footer > section:nth-of-type(1) > article:nth-of-type(3) > ul > li > a:hover {
+  color: chocolate;
+}
+.s8 > div > footer > section:nth-of-type(2) {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.s8 > div > footer > section:nth-of-type(2) > article:nth-of-type(1) > div {
+  width: 100px;
+  height: 35px;
+  background-image: url(../img/IMG1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.s8 > div > footer > section:nth-of-type(2) > article:nth-of-type(2) > i {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 0 3px;
+  margin: 0 6px;
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+.s8 > div > footer > section:nth-of-type(2) > article:nth-of-type(2) > i:hover {
+  background-color: chocolate;
+}
+.s8 > div > footer > section:nth-of-type(2) > article:nth-of-type(3) > p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.3rem;
+}/*# sourceMappingURL=master.css.map */
